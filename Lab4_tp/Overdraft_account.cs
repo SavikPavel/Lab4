@@ -6,19 +6,22 @@ using System.Threading.Tasks;
 
 namespace Lab4_tp
 {
-    class Overdraft_account : Base_account
+    public class Overdraft_account : Base_account
     {
-        private double percent;
-        public override bool Withdraw(double value)
+        protected double percent;
+        public Overdraft_account(int n, int c, double b, DateTime d):base(n, c, b, d)
         {
-            SetBalance(CheckBalance() - value);
-            return true;
+            percent = 0.02;
         }
-        public void AccruePercent(date current_date)
+        public override double Withdraw(DateTime current_date, double value)
         {
-            double curr_balance = CheckBalance();
-            if (current_date.day == this.GetStartDate().day && curr_balance < 0)
-                this.SetBalance(curr_balance + curr_balance * percent);
+            this.balance -= value;
+            return value;
+        }
+        public void AccruePercent(DateTime current_date)
+        {
+            if (current_date.Day == this.start_date.Day && balance < 0)
+               this.balance += balance * percent;
         }
     }
 }

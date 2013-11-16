@@ -6,47 +6,43 @@ using System.Threading.Tasks;
 
 namespace Lab4_tp
 {
-    struct date
+    public abstract class Base_account
     {
-        public int year;
-        public int month;
-        public int day;
-        date(int _year, int _month, int _day)
+        private int acc_no;
+        private int pin;
+        protected double balance;
+        protected DateTime start_date;
+
+        public int Pin
         {
-            year = _year;
-            month = _month;
-            day = _day;
+            get { return pin; }
+            set { pin = value; }
         }
-    }
-    abstract class Base_account
-    {
-        private double balance;
-        public void SetBalance(double _balance)
+        public int Acc_no
         {
-            this.balance = _balance;
+            get { return acc_no; }
+            set { acc_no = value; }
         }
-        private  date start_date;
-        public date GetStartDate()
+        public Base_account(int number, int code, double start_balance, DateTime start_date)
         {
-            return this.start_date;
-        }
-        public void SetStartDate(date new_date)
-        {
-            this.start_date = new_date;
+            acc_no = number;
+            pin = code;
+            balance = start_balance;
+            this.start_date = start_date;
         }
 
         public void Deposit(double value)
         {
             balance += value;
         }
-        public virtual bool Withdraw(double value)
+        public virtual double Withdraw(DateTime current_date, double value)
         {
             if (value <= balance)
             {
                 balance -= value;
-                return true;
+                return value;
             }
-            return false;
+            return 0;
         }
         public double CheckBalance()
         {
