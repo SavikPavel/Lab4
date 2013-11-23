@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab4_tp
 {
-    class Interface
+    public class Interface
     {
         private Base_account my_account = null;
 

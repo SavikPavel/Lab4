@@ -1,0 +1,7 @@
+C:\Users\Pavel\Dropbox\2012_Projects\Lab4_tp\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\Pavel\Dropbox\2012_Projects\Lab4_tp\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\Pavel\Dropbox\2012_Projects\Lab4_tp\UnitTestProject1\bin\Debug\Lab4_tp.exe
+C:\Users\Pavel\Dropbox\2012_Projects\Lab4_tp\UnitTestProject1\bin\Debug\Lab4_tp.pdb
+C:\Users\Pavel\Dropbox\2012_Projects\Lab4_tp\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+C:\Users\Pavel\Dropbox\2012_Projects\Lab4_tp\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\Pavel\Dropbox\2012_Projects\Lab4_tp\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

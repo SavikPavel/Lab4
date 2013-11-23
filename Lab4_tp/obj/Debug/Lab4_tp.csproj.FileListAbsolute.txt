@@ -1,5 +1,0 @@
-C:\Users\Pavel\Dropbox\2012_Projects\Lab4_tp\Lab4_tp\bin\Debug\Lab4_tp.exe.config
-C:\Users\Pavel\Dropbox\2012_Projects\Lab4_tp\Lab4_tp\bin\Debug\Lab4_tp.exe
-C:\Users\Pavel\Dropbox\2012_Projects\Lab4_tp\Lab4_tp\bin\Debug\Lab4_tp.pdb
-C:\Users\Pavel\Dropbox\2012_Projects\Lab4_tp\Lab4_tp\obj\Debug\Lab4_tp.exe
-C:\Users\Pavel\Dropbox\2012_Projects\Lab4_tp\Lab4_tp\obj\Debug\Lab4_tp.pdb

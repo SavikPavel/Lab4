@@ -39,10 +39,11 @@ namespace Lab4_tp
                     total_transactions--;
             return 0;
         }
-        public void AccruePercent(DateTime current_date)
+        public double AccruePercent(DateTime current_date)
         {
             if (current_date.Day == this.start_date.Day)
                 this.total_transactions = 0;
+            return 0;
         }
     }
 }
